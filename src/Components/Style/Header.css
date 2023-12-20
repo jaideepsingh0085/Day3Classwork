@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 68px;
+    width: 100vw;
+    background-color: #111827;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+.nav-left-area {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    gap: 12px;
+    
+}
+.nav-left-area>h2 {
+    font-weight: 600;
+}
+.nav-mid-area {
+    display: flex;
+    gap: 30px;
+    font-weight: 600;
+}
+.nav-mid-area>a{
+color: white;
+text-decoration: none;
+}
+.nav-mid-area .home {
+    color: #2975ea;
+}
+.nav-right-area>button {
+    padding: 10px 16px;
+    background-color: #2563eb;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
